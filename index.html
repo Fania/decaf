@@ -4,10 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Fania - ECAF</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/fania.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +25,58 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+
+        <section>
+          <h1>Creativity in the Digital Age</h1>
+          <h2><a href="https://fania.uk">Dr Fania Raczinski</a></h2>
+          <h3>ECAF Interview DMU</h3>
+        </section>
+
+        <section>
+          <section>
+            <h2>Research Roadmap</h2>
+            <iframe src="map-index.html" width="900" height="600" scrolling="no"></iframe>
+          </section>
+          <section>
+            <h2>Synthesis</h2>
+            <ul>
+              <li>algorithmic meta-creativity</li>
+              <li>evaluation of computer creativity</li>
+              <li>creative computing vs computational creativity</li>
+              <li>artificial creativity vs artificial intelligence</li>
+              <li>teaching creative computing</li>
+              <li>hack-spaces/makers & rapid prototyping/scripting</li>
+              <li>transdisciplinary (practice-based) research</li>
+            </ul>
+          </section>
+        </section>
+
+				<section>
+          <h2>Time</h2>
+          <div class="chart">
+            <div class="bar">
+              <div id="pubs" title="Publications" class="chunk"></div>
+              <div id="res" title="Research" class="chunk"></div>
+              <div id="exhs" title="Exhibitions" class="chunk"></div>
+              <div id="art" title="Art" class="chunk"></div>
+              <div id="offt" title="Off-Topic" class="chunk"></div>
+              <div id="ont" title="On-Topic" class="chunk"></div>
+            </div>
+            <div class="bar">
+              <div id="y-theory" title="Theory" class="y-chunk">Theory</div>
+              <div id="y-practice" title="Practice" class="y-chunk">Practice</div>
+            </div>
+            <div class="bar">
+              <div id="x-research" title="Research" class="x-chunk">Research</div>
+              <div id="x-teaching" title="Teaching" class="x-chunk">Teaching</div>
+            </div>
+          </div>
+        </section>
+
+				
+
+
 			</div>
 		</div>
 
@@ -33,16 +84,14 @@
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+        controls: true,
+        progress: true,
+        history: true
 			});
 		</script>
 	</body>

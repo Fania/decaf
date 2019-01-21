@@ -1,0 +1,158 @@
+body {
+  background-color: #1c1004;
+}
+
+
+.reveal {
+  font-family: "Times New Roman", serif;
+  color: #FBFEF9; 
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #FBFEF9;
+  font-family: "Times New Roman", serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 2.5em; 
+  color: #BEEF9E; }
+
+.reveal h2 {
+  font-size: 1.6em; 
+  text-transform: none; }
+
+.reveal h3 {
+  font-size: 1.3em; 
+  text-transform: none; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+
+.reveal a {
+  color: #42affa;
+  text-decoration: none;
+  transition: color .15s ease; }
+
+.reveal a:hover {
+  color: #8dcffc;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #068de9; }
+
+
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+
+.reveal .controls {
+  color: #42affa; }
+
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #42affa; }
+
+
+
+.chart {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.bar {
+  box-sizing: border-box;
+  display: flex;
+}
+.chunk {
+  height: 100px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.x-chunk {
+  height: 40px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#pubs {
+  width: 16.6666%;
+  background-color: #EFF1C5;
+}
+#res {
+  width: 16.6666%;
+  background-color: #BFCDE0;
+}
+#exhs {
+  width: 16.6666%;
+  background-color: #EFF1C5;
+}
+#art {
+  width: 16.6666%;
+  background-color: #BFCDE0;
+}
+#offt {
+  width: 16.6666%;
+  background-color: #EFF1C5;
+}
+#ont {
+  width: 16.6666%;
+  background-color: #BFCDE0;
+}
+
+#y-theory {
+  font-size: .75em;
+  width: 25%;
+  background-color: rgb(154, 250, 250);
+}
+#y-practice {
+  font-size: .75em;
+  width: 25%;
+  background-color: rgb(234, 148, 255);
+}
+#x-research {
+  font-size: .75em;
+  width: 50%;
+  background-color: #BEEF9E;
+}
+#x-teaching {
+  font-size: .75em;
+  width: 50%;
+  background-color: lightblue;
+}
+
+
+
+
+@media print {
+  .backgrounds {
+    background-color: #222; } }
