@@ -2,6 +2,48 @@ body {
   background-color: #352C27;
 }
 
+.reveal code#end {
+  font-size: 1.4em;
+}
+
+.reveal.rt {
+  border-top: 3px solid #0080b3;
+  width: 300px;
+  height: 10px;
+}
+
+.reveal.tr {
+  border-bottom: 3px solid #aa0088;
+  width: 300px;
+  height: 10px;
+}
+
+.reveal .left {
+  left:-8.33%;
+  float: left;
+  width:48%;
+}
+
+.reveal .right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  width:48%;
+}
+
+.reveal img.left.small ~ .right {
+  width:55%;
+}
+
+.reveal img.left {
+  max-height: 60vh;
+  max-width: 50%;
+  width: auto; 
+  object-fit: contain;}
+
+.reveal img.left.small {
+  max-width: 40%;
+}
 
 .reveal {
   font-family: "Times New Roman", serif;
@@ -50,6 +92,9 @@ body {
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
 
+.reveal strong {
+  color: #54c6e9;
+}
 
 .reveal a {
   color: #42affa;
@@ -132,23 +177,41 @@ body {
 #y-theory {
   font-size: .75em;
   width: 25%;
-  background-color: #DCF2B0;
+  background-color: #6600ff;
 }
 #y-practice {
   font-size: .75em;
   width: 25%;
-  background-color: #FCF6BD;
+  background-color: #ff0053;
 }
 #x-research {
   font-size: .75em;
   width: 50%;
-  background-color: #C5FFFD;
+  background-color: #0080b3;
 }
 #x-teaching {
   font-size: .75em;
   width: 50%;
-  background-color: #F8C7CC;
+  background-color: #aa0088;
 }
+
+/* 
+#54c6e9
+#aa87de
+#0055d4
+#ff80e5
+#ffcc00
+#ff6600
+#216778
+#aa0088
+#6600ff
+#008066
+#292a78
+#ff0053
+#88aa00
+#0080b3
+ */
+
 
 
 
