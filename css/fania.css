@@ -6,6 +6,10 @@ body {
   font-size: 1.4em;
 }
 
+.reveal p.small {
+  font-size: 0.8em;
+}
+
 .reveal.rt {
   border-top: 3px solid #0080b3;
   width: 300px;
